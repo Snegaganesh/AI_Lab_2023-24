@@ -1,6 +1,6 @@
 # Ex.No: 1  Implementation of Breadth First Search 
-### DATE: 29 - 08 - 25                                                                      
-### REGISTER NUMBER : 212223060266
+### DATE:29-08-2025                                                                           
+### REGISTER NUMBER :212223060266
 ### AIM: 
 To write a python program to implement Breadth first Search. 
 ### Algorithm:
@@ -13,39 +13,11 @@ To write a python program to implement Breadth first Search.
 7.   Call the bfs function by passing arguments visited, graph and starting node.
 8.   Stop the program.
 ### Program:
+<img width="905" height="726" alt="Screenshot 2025-08-29 214630" src="https://github.com/user-attachments/assets/6a41b0bf-1f9e-4802-8090-7d20de7fd784" />
 
-```
-from collections import deque
-
-
-def bfs(graph, start):
-    while queue:
-        vertex = queue.popleft()
-        bfs_order.append(vertex)
-        for neighbor in graph[vertex]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                queue.append(neighbor)
-     return bfs_order
-
-graph = {
-    'A': ['B', 'C'],
-    'B': ['D', 'E'],
-    'C': ['F'],
-    'D': [],
-    'E': ['F'],
-    'F': []
-}
-
-start_vertex = 'A'
-order = bfs(graph, start_vertex)
-print("BFS Order:", order)
-
-```
 
 ### Output:
-
-![image](https://github.com/user-attachments/assets/6771e719-3d14-4c17-98f2-a0c76d2fd25f)
+<img width="421" height="164" alt="Screenshot 2025-08-29 214638" src="https://github.com/user-attachments/assets/f35a9a10-2313-483d-b11f-80db61432b86" />
 
 
 ### Result:
