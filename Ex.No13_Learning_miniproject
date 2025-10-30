@@ -1,6 +1,6 @@
 # Ex.No: 13 Machine Learning
 ### DATE: 26.10.2025                                                                           
-### REGISTER NUMBER : 212223060266
+### REGISTER NUMBER : 212223060107
 ### AIM: 
 
 To predict the power output (kW) of a wind turbine using real-time operational and environmental data such as wind speed, temperature, and turbine parameters, by applying a suitable machine learning algorithm. The prediction helps in optimizing energy production, scheduling maintenance, and improving efficiency in renewable energy systems.
@@ -56,6 +56,8 @@ Identify which features most influence power output (e.g., wind speed, rotor spe
 ### Program:
 
 ```
+
+
 # Step 1: Import required libraries
 import pandas as pd
 import numpy as np
@@ -156,7 +158,7 @@ plt.show()
 
 ### Output:
 
-[Screenshot 2025-10-26 184642](https://github.com/user-attachments/assets/1e71f860-4fcb-4059-b859-87022e47b009)
+![Screenshot 2025-10-26 184642](https://github.com/user-attachments/assets/1e71f860-4fcb-4059-b859-87022e47b009)
 
 
 <img width="626" height="624" alt="image" src="https://github.com/user-attachments/assets/4d1d8e54-f187-4698-bc69-630d5ae7c7cc" />
